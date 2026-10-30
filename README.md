@@ -1,16 +1,27 @@
-## Hi there 👋
+Hi, I'm **Shery (Shaheryar Rafi)**
 
-<!--
-**shery-r/shery-r** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+_Security product leader. I build and evaluate AI agents for security operations._
 
-Here are some ideas to get you started:
+For 11 years I built security products at an MSSP. Most recently I led the AI SOC product, which automates EDR alert triage, investigation and response. I wrote the evals for its triage and response agents. Analyst time on manual investigations dropped from 17 to 5 minutes, and triage time for critical and high-severity alerts fell 80% year over year.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Before product, I was a software engineer. I built a particle-effects middleware engine that became part of the PlayStation DevKit, and analytics for high-frequency trading systems.
+
+What I'm building
+
+Triage Bench (in progress, building in public) An open evaluation harness for AI alert-triage agents. It uses labeled alerts from public datasets, mapped to MITRE ATT&CK, and scores each agent on:
+
+verdict accuracy
+technique match
+missed true positives
+cost and latency
+
+Next up: guardrails for autonomous remediation and detections for agentic threats such as MCP tool abuse and prompt injection.
+
+What I work on
+AI agents for the SOC: triage, investigation, threat hunting, guardrailed remediation
+Agent evaluation: golden sets, regression evals, LLM-as-judge, failure-mode analysis
+Security platforms: SIEM, SOAR, UEBA, MDR, detection engineering, governance and compliance automation 
+Tools I use daily: Claude Code, MCP, Python, SQL, Snowflake
+Elsewhere
+LinkedIn: linkedin.com/in/shaheryar-rafi. I write weekly about shipping AI in security operations.
+Nuz8: nuz8.com. Through my consultancy I help mid-market teams adopt AI agents without creating new security risk.
